@@ -35,10 +35,6 @@ colcon build --packages-select fr3_teleop
 | `command_out_topic` | `/fr3_arm_controller/joint_trajectory` | Matches controller from `fr3_ros_controllers.yaml` |
 | `linear_scale` / `rotational_scale` | `0.1` | Conservative for safety |
 
-## Usage
-
-Full startup sequence, architecture diagram, and operational details: see [deploy docs — teleop.md](https://github.com/phanikiran1169/thesis/blob/master/notes/deploy/teleop.md).
-
 ## References
 
 - [MoveIt Servo tutorial (Humble)](https://moveit.picknik.ai/humble/doc/examples/realtime_servo/realtime_servo_tutorial.html)
