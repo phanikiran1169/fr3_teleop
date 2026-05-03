@@ -15,7 +15,7 @@ ROS 2 package for FR3 teleoperation via MoveIt Servo. Supports keyboard input (`
 ## Build
 
 ```bash
-cd ~/franka_ws
+cd <workspace>
 colcon build --packages-select fr3_teleop
 ```
 
